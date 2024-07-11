@@ -1,0 +1,454 @@
+:root {
+    --basic-color: #6209D4;
+    --primary-color: #FF3D7F;
+    --transition: all .4s linear;
+}
+body
+{
+    background-color: #fff;
+    overflow-x: hidden !important;
+}
+
+.reg-12
+{
+    font-weight: normal !important;
+    font-size: 0.75rem !important;
+}
+
+.bg-pink {
+    background-color: #FF3D7F !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--basic-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--basic-color);
+}
+.top-10
+{
+    top: 3% !important;
+}
+.h-80
+{
+    height: 85% !important;
+}
+.bg-l
+{
+    background-color: #FAFAFA !important;
+}
+.bg-main {
+    background-color: var(--basic-color);
+}
+
+.text-main {
+    color: var(--basic-color);
+}
+
+.bg-second {
+    background-color: var(--primary-color);
+}
+
+.text-second {
+    color: var(--primary-color);
+}
+
+
+.home h2 {
+    font-size: 2rem !important;
+}
+.home p {
+    font-size: 0.875rem !important;
+    line-height: 29px;
+}
+
+.home button,
+.about button {
+    font-size: 0.75rem !important;
+}
+
+.home-page-image {
+    height: 371px !important;
+    width: 482px !important;
+}
+
+
+
+.about h3 {
+    font-size: 1.625rem !important;
+}
+
+.after-h3::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    background-color: #000;
+    position: absolute;
+    bottom: 35%;
+    right: 120px
+}
+
+.about p {
+    font-size: 0.875rem !important;
+    color: #4A4A4A !important;
+}
+
+.about img {
+    width: 435px !important;
+    height: 435px !important;
+
+    border-radius:100px 24px 24px 24px;
+}
+
+
+.rtl {
+    direction: rtl !important;
+}
+
+.ltr {
+    direction: ltr !important;
+}
+
+
+
+
+
+
+
+.home-page-image {
+    height: 371px;
+    width: 482px;
+}
+
+.about-page-image {
+    height: 435px;
+    width: 435px;
+}
+
+.about-page-content {
+    height: 216px;
+    width: 430px;
+}
+
+
+.h-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.h-text {
+    font-size: 15px !important;
+    font-weight: 400;
+}
+
+
+.contact-content {
+    width: 350px;
+    height: 242px;
+
+}
+
+
+
+.prograss-bar-new .skill-bar .skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    background: var(--primary-color);
+    opacity: 0;
+}
+
+.prograss-bar-new {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.prograss-bar-new .skill-box {
+    width: 25%;
+    /* margin: 10px 0; */
+}
+
+.statistics h3 {
+    font-size: 1.375rem !important;
+}
+
+.statistics p {
+    font-size: 0.75rem !important;
+}
+
+.statistics h1 {
+    font-size: 2.5rem !important;
+    color: var(--basic-color);
+}
+
+.contact h3 {
+    font-size: 1.375rem !important;
+}
+
+.contact p {
+    font-size: 0.688rem !important;
+}
+
+.contact button,
+.contact a {
+    font-size: 0.688rem !important;
+}
+
+.camp-span {
+    font-size: 0.75rem !important;
+}
+
+.home .b1 {
+    height: 48px !important;
+    width: 175px !important;
+}
+
+.home .b2 {
+    height: 48px !important;
+    width: 175px !important;
+}
+
+.about button {
+    height: 48px !important;
+    width: 160px !important;
+}
+
+.size {
+    height: 48px !important;
+
+}
+
+.box-public-comp
+{
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 5px !important;
+    
+}
+.prograss-bar-new .skill-per::after {
+    content: '';
+    position: absolute;
+    left: -.5rem;
+    top: -.5rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    color: var(--basic-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/pink-heart.png);
+    z-index: 1;
+}
+
+.prograss-bar-new .skill-box {
+    width: 100%;
+    background: rgba(0,0,0,0.1);
+    /* margin: 10px 0; */
+}
+.prograss-bar-new .skill-box .skill-bar {
+    height: 8px;
+    width: 20%;
+    border-radius: 6px;
+    /* margin-top: 6px; */
+    /* background: rgba(0,0,0,0.1); */
+    position: relative;
+}
+
+
+.share-image
+{
+    width: 18px !important;
+    height: 18px !important;
+}
+.likes-num
+{
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.footer-logo
+{
+    height: 3.188rem !important;
+    width: 5.688rem !important;
+}
+.footer-icon
+{
+    height: 2.125rem !important;
+    width: 2.125rem !important;
+    background-color: var(--primary-color);
+}
+
+.rounded-button
+{
+    border-radius: 100px 20px !important;
+}
+
+
+/* Start Hover-Bottom Class BTN For All BTN */
+.button1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    background-color: var(--primary-color);
+}
+
+.button1:hover::after {
+    width: 100%;
+ 
+}
+.button1:hover span {
+    color: var(--white-color);
+}
+.button1 span,
+.button1::after,
+.button1:hover::after {
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+.button1{
+    border: none !important;
+    background-color: var(--basic-color) !important;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+
+}
+
+
+
+.button2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    background-color: var(--basic-color);
+}
+
+.button2:hover::after {
+    width: 100%;
+ 
+}
+.button2:hover span {
+    color: var(--white-color);
+}
+.button2 span,
+.button2::after,
+.button2:hover::after {
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+.button2{
+    border: none !important;
+    background-color: var(--primary-color) !important;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+
+}
+
+
+
+
+
+
+
+.button3::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    background-color: var(--primary-color);
+}
+
+.button3:hover::after {
+    width: 100%;
+ 
+}
+.button3:hover span {
+    color: var(--white-color);
+}
+.button3 span,
+.button3::after,
+.button3:hover::after {
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+.button3{
+    border: none !important;
+    background-color: #fff !important;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+
+}
+
+/* Start Hover-Bottom Class BTN For All BTN */
+
+
+
+
+
+
+.header .nav-underline a.nav-link.active::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    bottom: 2px;
+    right: 1rem;
+    background-color: var( --basic-color);
+ 
+}
+.header .nav-underline .nav-link:focus,
+.header .nav-underline .nav-link:hover,
+.header .nav-underline .nav-link.active {
+    color: var(--basic-color);
+}
+.reg-12
+{
+    font-weight: normal !important;
+    font-size: 0.75rem;
+}
