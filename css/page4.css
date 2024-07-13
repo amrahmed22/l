@@ -422,3 +422,17 @@ body
     font-weight: normal !important;
     font-size: 0.75rem;
 }
+
+
+@media only screen and (max-width: 993px) {
+  
+    .home{
+        margin-top: -70px !important;
+    }
+    .content-home
+    {
+        margin-top: 18px !important;
+        /* text-align: center !important; */
+    }
+  
+}

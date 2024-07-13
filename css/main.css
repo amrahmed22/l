@@ -2751,3 +2751,9 @@ footer .row-center .box-social-media>ul>li>a:hover {
 }
 
 /* Home Style End */
+
+
+.button1 , .button2 , .button3
+{
+    overflow: hidden !important;
+}
