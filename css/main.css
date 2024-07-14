@@ -1052,13 +1052,13 @@ body {
     .public-campaigns .row-up .box-btn .btn-hover::after {
         background-color: var(--white-color) !important;
     }
-    .public-campaigns .row-up .box-btn .slides-btn .next-public-camp:hover,
-    .public-campaigns .row-up .box-btn .slides-btn .prev-public-camp:hover,
+    /* .public-campaigns .row-up .box-btn .slides-btn .next-public-camp:hover,
+    .public-campaigns .row-up .box-btn .slides-btn .prev-public-camp:hover, */
     .public-campaigns .row-up .box-btn .btn-hover {
         background-color: var(--dark-color) !important;
     }
-    .public-campaigns .row-up .box-btn .slides-btn .next-public-camp svg path,
-    .public-campaigns .row-up .box-btn .slides-btn .prev-public-camp svg path,
+    /* .public-campaigns .row-up .box-btn .slides-btn .next-public-camp svg path,
+    .public-campaigns .row-up .box-btn .slides-btn .prev-public-camp svg path, */
     .public-campaigns .row-up .box-btn .btn-hover:hover svg path {
         stroke: var(--dark-color);
     }
@@ -1070,9 +1070,11 @@ body {
         -ms-transition: var(--transition);
         -o-transition: var(--transition);
     }
-    .public-campaigns .row-up .box-btn .btn-hover,
+    .public-campaigns .row-up .box-btn .btn-hover
+    /* ,
     .public-campaigns .row-up .box-btn .slides-btn .next-public-camp,
-    .public-campaigns .row-up .box-btn .slides-btn .prev-public-camp {
+    .public-campaigns .row-up .box-btn .slides-btn .prev-public-camp */
+     {
         border: .1rem solid var(--dark-color) !important;
     }
 }  
