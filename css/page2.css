@@ -417,5 +417,30 @@ body
         margin-top: 18px !important;
         /* text-align: center !important; */
     }
+    .c-center
+    {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .about
+    {
+        text-align: center;
+    }
   
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+    /* .home .content-home{
+        padding-top: 120px !important;
+    } */
+    .home h2
+    {
+        font-size: 1.8rem !important;
+    }
+    .home p ,.about p{
+        font-size: 0.8rem !important;
+    }
 }
