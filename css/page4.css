@@ -144,7 +144,7 @@ body
 .hamalate-size
 {
     height: 365px !important;
-    width: 365px !important;
+    max-width: 365px !important;
 }
 .end-40
 {

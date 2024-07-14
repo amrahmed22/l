@@ -444,3 +444,9 @@ body
         font-size: 0.8rem !important;
     }
 }
+
+.next-public-camp , .prev-public-camp
+{
+    border: none !important;
+    outline: none !important;
+}
